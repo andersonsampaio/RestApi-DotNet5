@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lbrOPNfoMMvGgRtXJ0te4oQ/glKjPUtr7EJ4722RguRLAAsKI1nCBzZ7TioNGBmIcwEdRw27UhHX0P4xBeItDA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dti Digital\\Documents\\GitHub\\MeusProjetos\\RestApi-DotNet5\\Catalog\\Catalog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dti Digital\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\dti Digital\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\dti Digital\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\dti Digital\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\dti Digital\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\dti Digital\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

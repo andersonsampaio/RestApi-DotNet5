@@ -1,0 +1,11 @@
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\Catalog.exe
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\appsettings.Development.json
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\appsettings.json
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\Catalog.dll
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\Catalog.deps.json
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\Catalog.runtimeconfig.json
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\Catalog.pdb
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\Microsoft.OpenApi.dll
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dti Digital\Documents\GitHub\MeusProjetos\Catalog\Catalog\bin\Debug\net5.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
