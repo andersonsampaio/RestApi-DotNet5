@@ -29,7 +29,7 @@ namespace Catalog.Controllers
         }
 
         // GET /items/{id}
-        [HttpGet("{id}")]
+        [HttpGet("id")]
         public ActionResult<ItemDto> GetItem(Guid id)
         {
             var item = repository.GetItem(id);
@@ -55,8 +55,53 @@ namespace Catalog.Controllers
 
             repository.CreateItem(item);
 
-            return CreatedAtAction(nameof(GetItem), new {id = item.Id}, item.AsDto());
+            // DUAS MANEIRAS DE RETORNAR NO SWAGGER
+            //==========================================================
+            //PRIMEIRA -  minha variação
 
+            // var test = repository.GetItem(item.Id);
+            // return test.AsDto();
+
+            //SEGUNDA -  mais simples proposta no curso utilizando CreatedAtAction
+            return CreatedAtAction(nameof(GetItem), new {id = item.Id}, item.AsDto());
+        }
+
+        // PUT /items/{id}
+        [HttpPut("id")]
+        public ActionResult UpdateItem(Guid id, UpdateItemDto itemDto)
+        {
+            var existingItem = repository.GetItem(id);
+
+            if (existingItem is null)
+            {
+                return NotFound();
+            }
+
+            Item updatedItem = existingItem with
+            {
+                Name = itemDto.Name,
+                Price = itemDto.Price
+            };
+
+            repository.UpdateItem(updatedItem);
+
+            return NoContent();
+        }
+
+        //DELETE /items/
+        [HttpDelete("id")]
+        public ActionResult DeleteItem(Guid id)
+        {
+            var existingItem = repository.GetItem(id);
+
+            if (existingItem is null)
+            {
+                return NotFound();
+            }
+
+            repository.DeleteItem(id);
+
+            return NoContent();
         }
     }
 }
